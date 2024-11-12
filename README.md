@@ -12,20 +12,21 @@
 ## 화면 구성
 
 ### 1. 메인 화면 
-<img src="https://i.postimg.cc/pdGNCw1G/1.png">
+<img src="https://i.postimg.cc/pdGNCw1G/1.png" width="320" alt="main" >
 
 ### 2. 할 일 작성 
-<img src="https://i.postimg.cc/t4bYG6C0/2.png">
+![write](https://github.com/user-attachments/assets/83b469f0-da51-42d4-8107-94d0f34a49ac)
 
 ### 3. 할 일 목록 
 
-<img src="https://i.postimg.cc/R0h3yr46/3.png">
+<img src="https://i.postimg.cc/R0h3yr46/3.png" width="320" alt="list">
 
 ### 4. 할 일 완료 
-<img src="https://i.postimg.cc/pdRCFLQN/4.png">
+![complete](https://github.com/user-attachments/assets/b458d056-1e8d-4187-8fe7-85421045e3fd)
 
 
 
 ## 향후 계획 
 - 우선순위 설정 기능 
-- 푸시 알림 기능 
+- 푸시 알림 기능
+
