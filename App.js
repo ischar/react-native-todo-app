@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style={modalIsVisible ? "light" : "dark"} />
       <View style={styles.appContainer}>
         <GoalInput
           visible={modalIsVisible}
