@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { View, TextInput, Button, Modal } from "react-native";
-import styles from "../styles";
+import { View, TextInput, Button, Modal, Image } from "react-native";
+import styles from "../style/styles";
 
 function GoalInput(props) {
   const [enteredGoalText, setEnteredGoalText] = useState("");
@@ -19,18 +19,21 @@ function GoalInput(props) {
   return (
     <Modal visible={props.visible} animationType="slide">
       <View style={styles.inputContainer}>
-          <TextInput
-            style={styles.textInput}
-            placeholder="할 일을 작성해주세요!"
-            value={enteredGoalText}
-            onChangeText={goalInputHandler}
-          />
+        <Image source={require('../assets/images/run.png')} style={styles.image} />
+        <TextInput
+          style={styles.textInput}
+          placeholder="할 일을 작성해주세요!"
+          placeholderTextColor="#f9f9f9"
+
+          value={enteredGoalText}
+          onChangeText={goalInputHandler}
+        />
         <View style={styles.buttonContainer}>
           <View style={styles.button}>
-            <Button title="Add" onPress={addGoalHandler} />
+            <Button title="Add" color="#CFCFCF"  onPress={addGoalHandler} />
           </View>
           <View style={styles.button}>
-            <Button title="Cancel" onPress={props.onCancel} />
+            <Button title="Cancel" color="#CFCFCF" onPress={props.onCancel} />
           </View>
         </View>
       </View>
